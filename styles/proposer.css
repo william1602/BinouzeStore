@@ -1,0 +1,163 @@
+
+body{
+	background-attachment: fixed;
+	background-image: url('../biere.jpg');
+	background-repeat:no-repeat;
+	background-color: rgba(255,255,255,0.6);
+	background-blend-mode: lighten;
+	background-size: cover;
+
+}
+
+
+.logo{
+
+  margin-left:auto;
+  margin-right:auto;
+  width:500px;
+  height:500px;
+  margin-top: 100px;
+
+}
+.sub{
+float:right;
+
+
+
+
+
+}
+.sub ul  {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+.sub li {
+
+ margin-left:10px;
+ float:left; /*pour IE*/
+ }
+.sub ul li a {
+ border-radius:20px 0 20px 0;
+ font-family: "Mp";
+ font-size: 25px;
+ display:block;
+ float:left;   
+ width:100px;
+ height: 25px;
+ background-color:#964b00;
+ color:white;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+.sub ul li a:hover {
+ background-color:#704214;
+
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ }
+
+
+.menu ul  {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+.menu li {
+
+ margin-left:20px;
+ float:left; /*pour IE*/
+ }
+.menu ul li a {
+ border-radius:20px 0 20px 0;
+ font-family: "Mp";
+ font-size: 50px;
+ display:block;
+ float:left;   
+ width:200px;
+ height: 50px;
+ background-color:#964b00;
+ color:white;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+.menu ul li a:hover {
+ background-color:#704214;
+
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
+ .menu{
+ 	margin-left:17%;
+  margin-right:auto;
+ }
+@font-face {
+	font-family: "Mp";
+	src: url('MotionPicture_PersonalUseOnly.ttf');
+}
+.down{
+	margin-top: 90px;
+	margin-right: 8%;
+	margin-left: 8%;
+	height:500px;
+	border: solid;
+	border-width:2px;
+	border-color: #704214;
+	background-color:white;
+	
+
+}
+.txt{
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: "Mp";
+ 	font-size: 60px;
+ 	color:#704214;
+}
+footer{
+
+background:#964b00;
+background-blend-mode: lighten;
+bottom:0;
+width:100%;
+margin-top:50px;
+height:300px;
+}
+
+.f1{
+	height:250px;
+	margin-top:25px;
+	margin-bottom:25px;
+	margin-left: 6%;
+	width: 25%;
+	float:left;
+	display:inline-block;
+
+}
+.f2{
+	height:250px;
+	margin-top:25px;
+	margin-bottom:25px;
+	width: 25%;
+	display:inline-block;
+
+	margin-left: 6%;
+
+}
+.f3{
+	height:250px;
+	margin-top:25px;
+	margin-bottom:25px;
+	width: 25%;
+	display:inline-block;
+	margin-left: 6%;
+	margin-right: 4%;
+
+
+}
